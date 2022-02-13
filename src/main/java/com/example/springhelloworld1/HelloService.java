@@ -17,7 +17,7 @@ public class HelloService {
 
     @RequestMapping("/")
     public String index() {
-        return "Hello World from Spring Boot " + now();
+        return "Hello World 2022...";
     }
     @RequestMapping("/abc")
     public String index2() {
