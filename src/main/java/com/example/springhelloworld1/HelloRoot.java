@@ -1,17 +1,17 @@
 package com.example.springhelloworld1;
 
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
 
-
-@RestController
-@RequestMapping("/root")
 /**
  * hello root class
  */
-public class HelloRoot {
+@RestController
+@RequestMapping("/root")
+public final class HelloRoot {
     @RequestMapping("/")
     public String index() {
         return "Hello World from Spring Boot root " + now();
