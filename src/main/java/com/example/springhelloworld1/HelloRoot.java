@@ -8,6 +8,9 @@ import java.text.SimpleDateFormat;
 
 @RestController
 @RequestMapping("/root")
+/**
+ * hello root class
+ */
 public class HelloRoot {
     @RequestMapping("/")
     public String index() {
