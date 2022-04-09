@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>SpringHelloWorld1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>SpringHelloWorld1</name>
     <description>SpringHelloWorld1</description>
     <properties>
