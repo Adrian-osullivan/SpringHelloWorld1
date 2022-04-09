@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
-
+/*
 @SpringBootTest
 class SpringHelloWorld1ApplicationTests {
 
@@ -21,3 +21,4 @@ class SpringHelloWorld1ApplicationTests {
     }
 
 }
+*/
