@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 public final class HelloRoot {
     @RequestMapping("/")
     public String index() {
-        return "Hello World from Spring Boot root (changed 13:59 on 11-Apr-22) " + now();
+        return "Hello World from Spring Boot root (changed 14:21 on 11-Apr-22) " + now();
     }
     public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss";
     public static String now() {
